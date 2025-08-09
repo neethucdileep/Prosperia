@@ -96,7 +96,7 @@ function Header() {
             </motion.div>
             <span className={`text-2xl font-heading font-bold transition-colors duration-300 ${
               isScrolled || !isHomePage ? 'text-white' : 'text-white'
-            }`}>Prospera</span>
+            }`}>PROSPERIA INFOTECH</span>
           </Link>
 
           {/* Desktop Navigation */}

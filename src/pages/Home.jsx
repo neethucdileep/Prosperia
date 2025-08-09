@@ -7,7 +7,7 @@ import { GlassCard, ModernButton, ServiceCard, TestimonialCard, IndustryCard, St
 const Home = () => {
   const services = [
     {
-      title: 'HR & Recruitment',
+      title: 'Staff Recruitment (IT & Non-IT)',
       description: 'Complete recruitment solutions for IT & Non-IT roles, payroll management, and POSH consulting.',
       icon: '👥',
       link: '/recruitment',
@@ -100,12 +100,12 @@ const Home = () => {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="inline-block px-6 py-2 bg-white/10 border border-white/20 rounded-full backdrop-blur-md text-white/80 text-sm font-medium"
                 >
-                  🚀 Transforming Businesses Since 2019
+                  🚀 Transforming Businesses Since 2025
                 </motion.div>
                 
                 <TextReveal 
-                  text="HR, Legal & Recruitment Experts"
-                  className="text-6xl lg:text-7xl font-heading font-bold text-white leading-tight"
+                  text="Your Partner in Staff Recruitment (IT & Non-IT), Technology Solutions and Legal Services"
+                  className="text-4xl lg:text-5xl font-heading font-bold text-white leading-tight"
                 />
                 
                 <motion.div
@@ -114,8 +114,7 @@ const Home = () => {
                   transition={{ duration: 0.8, delay: 0.6 }}
                   className="text-xl text-white/80 leading-relaxed max-w-2xl"
                 >
-                  Professional consulting services for HR, Legal Compliance, and Tech Solutions. 
-                  From recruitment to company registration to software development - we've got you covered.
+                  Expert consulting in Staff Recruitment Services, Software Development Services and Legal Services — tailored for IT & Non-IT businesses.
                 </motion.div>
               </div>
               
@@ -235,6 +234,178 @@ const Home = () => {
             {services.map((service, index) => (
               <ServiceCard key={service.title} service={service} index={index} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Staff Recruitment & Workforce Solutions Section */}
+      <section className="section-padding bg-gradient-to-br from-primary to-accent-blue text-white">
+        <div className="container-max">
+          <ScrollReveal className="text-center mb-16">
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="inline-block px-6 py-2 bg-white/10 border border-white/20 rounded-full backdrop-blur-md text-white/80 text-sm font-medium mb-6"
+            >
+              🔹 Staff Recruitment & Workforce Solutions
+            </motion.div>
+            
+            <TextReveal 
+              text="Smart Hiring for IT & Non-IT Success"
+              className="text-4xl lg:text-5xl font-heading font-bold text-white mb-6"
+            />
+            
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="text-xl text-white/80 max-w-4xl mx-auto leading-relaxed"
+            >
+              Attracting the right talent is critical to business growth — and that's where we come in. Our expert recruitment team delivers fast, reliable, and tailored hiring solutions for both IT and Non-IT sectors, helping you build high-performing teams that drive results.
+            </motion.p>
+            
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              viewport={{ once: true }}
+              className="text-lg text-white/70 max-w-4xl mx-auto leading-relaxed mt-4"
+            >
+              Whether you're scaling a tech startup or hiring for a global enterprise, we provide end-to-end staffing solutions with a focus on quality, efficiency, and cultural alignment. Top Tech Talent On-Demand – From developers to DevOps, we recruit across all major tech stacks: Java, Python, .NET, React, AWS, Azure, Salesforce, and more.
+            </motion.p>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* IT Recruitment Services Section */}
+      <section className="section-padding bg-white">
+        <div className="container-max">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <ScrollReveal>
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="space-y-6"
+              >
+                <div className="inline-block px-6 py-2 bg-accent-blue/10 border border-accent-blue/20 rounded-full text-accent-blue text-sm font-medium">
+                  💼 IT Recruitment Services
+                </div>
+                
+                <h2 className="text-4xl lg:text-5xl font-heading font-bold text-primary leading-tight">
+                  Connecting You with Top Tech Talent Across All Domains
+                </h2>
+                
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  Our IT recruitment solutions are designed to help you build agile, future-ready teams. We specialize in sourcing professionals across the tech spectrum — from software developers and QA engineers to DevOps specialists and data scientists. Whether you're hiring for permanent, contractual, or remote positions, we ensure that each candidate is carefully vetted for both technical proficiency and cultural fit.
+                </p>
+                
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  We also offer specialized hiring for technologies like Java, Python, .NET, React, AWS, Azure, Salesforce, and more. From fresh graduates through campus drives to senior tech leaders like CTOs and Product Managers, we deliver talent that aligns with your vision. Our fast-track onboarding support, skill assessments, and offer management help reduce time-to-hire and improve retention from day one.
+                </p>
+                
+                <Link to="/recruitment" className="btn-primary inline-flex items-center space-x-2">
+                  <span>Explore IT Recruitment</span>
+                  <span>→</span>
+                </Link>
+              </motion.div>
+            </ScrollReveal>
+            
+            <ScrollReveal>
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="relative"
+              >
+                <div className="bg-gradient-to-br from-accent-blue to-accent-purple rounded-3xl p-8 text-white">
+                  <div className="text-6xl mb-6">💻</div>
+                  <h3 className="text-2xl font-heading font-bold mb-4">Tech Stack Expertise</h3>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <div className="text-sm opacity-90">• Java & Spring</div>
+                      <div className="text-sm opacity-90">• Python & Django</div>
+                      <div className="text-sm opacity-90">• React & Node.js</div>
+                      <div className="text-sm opacity-90">• .NET & C#</div>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="text-sm opacity-90">• AWS & Azure</div>
+                      <div className="text-sm opacity-90">• DevOps & CI/CD</div>
+                      <div className="text-sm opacity-90">• Salesforce</div>
+                      <div className="text-sm opacity-90">• Data Science</div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Non-IT Recruitment Services Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-max">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <ScrollReveal>
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="relative order-2 lg:order-1"
+              >
+                <div className="bg-gradient-to-br from-accent-green to-accent-blue rounded-3xl p-8 text-white">
+                  <div className="text-6xl mb-6">👥</div>
+                  <h3 className="text-2xl font-heading font-bold mb-4">Non-IT Specializations</h3>
+                  <div className="grid grid-cols-1 gap-4">
+                    <div className="space-y-2">
+                      <div className="text-sm opacity-90">• Administration & Finance</div>
+                      <div className="text-sm opacity-90">• Sales & Marketing</div>
+                      <div className="text-sm opacity-90">• HR & Customer Support</div>
+                      <div className="text-sm opacity-90">• Procurement & Logistics</div>
+                      <div className="text-sm opacity-90">• BPO & Volume Hiring</div>
+                      <div className="text-sm opacity-90">• Blue-collar Workforce</div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </ScrollReveal>
+            
+            <ScrollReveal>
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="space-y-6 order-1 lg:order-2"
+              >
+                <div className="inline-block px-6 py-2 bg-accent-green/10 border border-accent-green/20 rounded-full text-accent-green text-sm font-medium">
+                  👥 Non-IT Recruitment Services
+                </div>
+                
+                <h2 className="text-4xl lg:text-5xl font-heading font-bold text-primary leading-tight">
+                  End-to-End Staffing Solutions for All Business Functions
+                </h2>
+                
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  We provide tailored recruitment services for non-technical roles across a wide range of industries. From administration, finance, sales, and HR to procurement, logistics, and customer support, we help you hire qualified professionals who can drive operational excellence and support your business goals.
+                </p>
+                
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  Our recruitment solutions also cover bulk/volume hiring for BPOs and support functions, management-level placements, and blue-collar workforce sourcing for manufacturing and service-based industries. We go beyond resumes by offering soft-skill assessments and behavioral profiling, ensuring you find candidates who are not just qualified — but the right fit for your organizational culture.
+                </p>
+                
+                <Link to="/recruitment" className="btn-primary inline-flex items-center space-x-2">
+                  <span>Explore Non-IT Recruitment</span>
+                  <span>→</span>
+                </Link>
+              </motion.div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -383,56 +554,6 @@ const Home = () => {
                 </div>
               </div>
             </motion.div>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Modern Testimonials Section */}
-      <section className="section-padding relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-dark-300 via-dark-200 to-dark-100" />
-        <div className="absolute inset-0">
-          <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-accent-purple/10 rounded-full blur-3xl animate-float" />
-          <div className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-accent-blue/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
-        </div>
-        
-        <div className="container-max relative z-10">
-          <ScrollReveal className="text-center mb-16">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="inline-block px-8 py-3 bg-white/5 border border-white/10 rounded-full backdrop-blur-md text-white/80 text-sm font-medium mb-6"
-            >
-              💬 Client Success Stories
-            </motion.div>
-            
-            <TextReveal 
-              text="What Our Clients Say"
-              className="text-5xl lg:text-6xl font-heading font-bold text-white mb-8"
-            />
-            
-            <motion.p
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              viewport={{ once: true }}
-              className="text-xl text-white/70 max-w-4xl mx-auto leading-relaxed"
-            >
-              Don't just take our word for it - hear from businesses that have transformed with our services.
-            </motion.p>
-          </ScrollReveal>
-
-          <div className="modern-grid">
-            {testimonials.map((testimonial, index) => (
-              <TestimonialCard key={testimonial.name} testimonial={testimonial} index={index} />
-            ))}
-          </div>
-          
-          <ScrollReveal className="text-center mt-16">
-            <ModernButton size="lg">
-              <Link to="/testimonials">Read More Success Stories</Link>
-            </ModernButton>
           </ScrollReveal>
         </div>
       </section>

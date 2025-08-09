@@ -24,6 +24,20 @@ const Recruitment = () => {
       icon: '🎯',
       features: ['Team Assembly', 'Project Management', 'Milestone Tracking', 'Quality Assurance'],
       link: '/contact'
+    },
+    {
+      title: 'Recruiter On-Demand',
+      description: 'Flexible recruiting support when and where you need it. Ideal for organizations that need extra hiring support without the cost of full-time staff. Our on-demand recruiters integrate seamlessly with your internal team to help you meet hiring goals faster and more efficiently.',
+      icon: '⚡',
+      features: ['Instant Access to Experienced Recruiters', 'Scalable Support Based on Hiring Volume', 'Integration with Your Internal Processes', 'Cost-Effective and Time-Saving'],
+      link: '/contact'
+    },
+    {
+      title: 'Recruitment Process Outsourcing (RPO)',
+      description: 'End-to-End Talent Acquisition, Managed for You. With our RPO services, we act as an extension of your HR team — managing the entire recruitment lifecycle from job profiling to onboarding. Ideal for companies seeking consistent quality and long-term hiring efficiency.',
+      icon: '🔄',
+      features: ['Dedicated Recruitment Team', 'Customized Talent Strategy', 'Full Lifecycle Hiring Support', 'Analytics, Reporting & Continuous Optimization'],
+      link: '/contact'
     }
   ]
 

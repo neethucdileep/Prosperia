@@ -7,22 +7,22 @@ const Footer = () => {
 
   const footerLinks = {
     'Services': [
-      { name: 'HR & Recruitment', href: '/recruitment' },
-      { name: 'Legal Consulting', href: '/legal' },
+      { name: 'Staff Recruitment (IT & Non-IT)', href: '/recruitment' },
+      { name: 'Legal Consulting', href: '/tech' },
       { name: 'Tech Services', href: '/tech' },
       { name: 'Industries We Serve', href: '/industries' }
     ],
     'Company': [
       { name: 'About Us', href: '/about' },
-      { name: 'Testimonials', href: '/testimonials' },
       { name: 'Careers', href: '/careers' },
       { name: 'Blog', href: '/blog' }
     ],
     'Legal': [
-      { name: 'Company Registration', href: '/legal/company-registration' },
+      { name: 'Drafting & Vetting Service Agreements', href: '/legal/drafting-vetting' },
       { name: 'Compliance', href: '/legal/compliance' },
       { name: 'MSME Registration', href: '/legal/msme-startup' },
-      { name: 'Practice Areas', href: '/legal/practice-areas' }
+      { name: 'Practice Areas', href: '/legal/practice-areas' },
+      { name: 'Company Registration', href: '/legal/company-registration' }
     ],
     'Tech': [
       { name: 'MVP Development', href: '/tech/mvp-development' },
@@ -43,31 +43,40 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-accent-blue to-accent-purple rounded-xl flex items-center justify-center">
                 <span className="text-white font-bold text-xl">P</span>
               </div>
-              <span className="text-2xl font-heading font-bold text-white">Prospera</span>
+              <span className="text-2xl font-heading font-bold text-white">PROSPERIA INFOTECH</span>
             </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Professional HR, Legal, Compliance & Tech Consulting Services. 
-              Expert recruitment, corporate law, and software development solutions 
+              Professional Staff Recruitment Services for IT & Non-IT, Technology Solutions and Legal Services. 
+              Expert recruitment, software development and legal consulting solutions 
               for businesses of all sizes.
             </p>
+            
+            {/* Company Address */}
+            <div className="mb-6">
+              <h4 className="font-semibold text-white mb-2">PROSPERIA INFOTECH PRIVATE LIMITED</h4>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                18/417 A, Poolanthara, Pothencode,<br />
+                Koliyacodu, Trivandrum 695589, Kerala
+              </p>
+            </div>
             
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <span className="text-accent-blue">📧</span>
-                <a href="mailto:info@prospera-consulting.com" className="text-gray-300 hover:text-white transition-colors">
-                  info@prospera-consulting.com
+                <a href="mailto:sales@prosperiainfotech.com" className="text-gray-300 hover:text-white transition-colors">
+                  sales@prosperiainfotech.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-accent-green">📞</span>
-                <a href="tel:+911234567890" className="text-gray-300 hover:text-white transition-colors">
-                  +91 12345 67890
+                <a href="tel:+919809174291" className="text-gray-300 hover:text-white transition-colors">
+                  +91 9809174291
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-accent-purple">💬</span>
-                <a href="https://wa.me/911234567890" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://wa.me/919809174291" className="text-gray-300 hover:text-white transition-colors">
                   WhatsApp Support
                 </a>
               </div>
@@ -149,7 +158,7 @@ const Footer = () => {
 
             {/* Copyright & Legal Links */}
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-gray-300">
-              <span>© {currentYear} Prospera Consulting. All rights reserved.</span>
+              <span>© {currentYear} PROSPERIA INFOTECH PRIVATE LIMITED. All rights reserved.</span>
               <div className="flex space-x-4">
                 <Link to="/privacy" className="hover:text-white transition-colors">
                   Privacy Policy

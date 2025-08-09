@@ -5,46 +5,20 @@ import { Link } from 'react-router-dom'
 const About = () => {
   const teamMembers = [
     {
-      name: "Rajesh Kumar",
+      name: "Kannan P K",
       role: "CEO & Founder",
       image: "/api/placeholder/300/300",
-      bio: "Visionary leader with 18+ years of experience in HR consulting, legal compliance, and technology solutions. Former VP at Fortune 500 companies.",
-      expertise: ["Strategic Planning", "Business Development", "Client Relations"]
-    },
-    {
-      name: "Priya Sharma",
-      role: "Legal Director & Compliance Head",
-      image: "/api/placeholder/300/300",
-      bio: "Senior advocate with 15+ years specializing in corporate law, MSME registration, and regulatory compliance. LLM from National Law University.",
-      expertise: ["Corporate Law", "MSME Registration", "Compliance Management"]
-    },
-    {
-      name: "Arjun Patel",
-      role: "Technology Director",
-      image: "/api/placeholder/300/300",
-      bio: "Full-stack architect with 14+ years building enterprise solutions. Expert in modern web technologies, mobile apps, and cloud infrastructure.",
-      expertise: ["Web Development", "Mobile Apps", "Cloud Solutions"]
-    },
-    {
-      name: "Sneha Reddy",
-      role: "HR & Recruitment Head",
-      image: "/api/placeholder/300/300",
-      bio: "HR specialist with 12+ years in talent acquisition, payroll management, and POSH compliance. MBA in Human Resources from IIM.",
-      expertise: ["Talent Acquisition", "Payroll Management", "POSH Compliance"]
-    },
-    {
-      name: "Vikram Singh",
-      role: "Operations Manager",
-      image: "/api/placeholder/300/300",
-      bio: "Operations expert with 10+ years optimizing business processes and ensuring service delivery excellence across multiple verticals.",
-      expertise: ["Process Optimization", "Quality Assurance", "Client Success"]
-    },
-    {
-      name: "Kavya Nair",
-      role: "Business Development Manager",
-      image: "/api/placeholder/300/300",
-      bio: "Growth strategist with 8+ years driving business expansion and building strategic partnerships across industries.",
-      expertise: ["Business Growth", "Strategic Partnerships", "Market Analysis"]
+      bio: "Visionary leader with 15+ years of experience in Staff Recruitment and Legal Services, driving business growth and ensuring compliance excellence.",
+      expertise: [
+        "Strategic Planning & Execution",
+        "Business Development & Market Expansion",
+        "Client Relations & Stakeholder Management",
+        "Legal Drafting, Vetting & Advisory",
+        "Regulatory Compliance & Risk Management",
+        "Talent Acquisition & Recruitment Strategy (IT & Non-IT)",
+        "Employee Onboarding & Workforce Planning",
+        "Contract Negotiations & Vendor Management"
+      ]
     }
   ]
 
@@ -180,20 +154,34 @@ const About = () => {
               About Our Company
             </motion.div>
             
-            <h1 className="text-6xl lg:text-7xl font-heading font-bold text-white mb-8 leading-tight">
-              About Prospera Consulting
+            <h1 className="text-5xl lg:text-6xl font-heading font-bold text-white mb-8 leading-tight">
+              About Prosperia Consulting Services
             </h1>
             
-            <motion.p
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl text-white/80 leading-relaxed max-w-4xl mx-auto"
-            >
-              We are a dynamic team of industry experts providing comprehensive HR, Legal, and Technology consulting services. 
-              Our mission is to empower businesses with innovative solutions, strategic talent acquisition, legal compliance, 
-              and cutting-edge technology that drives sustainable growth and success.
-            </motion.p>
+            <p className="text-xl text-white/80 leading-relaxed mb-8 max-w-4xl mx-auto">
+              At Prosperia Consulting Services, we are a dynamic team of seasoned industry professionals offering end-to-end Staff Recruitment, Legal, and Technology consulting solutions. We specialize in delivering customized strategies that help businesses streamline operations, stay compliant, and scale efficiently.
+            </p>
+            
+            <div className="text-lg text-white/70 leading-relaxed max-w-4xl mx-auto space-y-4">
+              <p className="font-semibold text-white/90 mb-4">We empower organizations through:</p>
+              <ul className="space-y-2 text-left max-w-2xl mx-auto">
+                <li className="flex items-start space-x-3">
+                  <span className="text-accent-blue mt-1">•</span>
+                  <span>Strategic Staff Recruitment across IT and Non-IT domains</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-accent-purple mt-1">•</span>
+                  <span>Expert Legal Consulting, Drafting, Vetting & Advisory Services</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-accent-green mt-1">•</span>
+                  <span>Innovative Software Development & Technology Consulting</span>
+                </li>
+              </ul>
+              <p className="mt-6">
+                With a client-first mindset and a results-driven approach, we enable companies to achieve sustainable growth, operational excellence, and digital transformation in a rapidly evolving business landscape.
+              </p>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -262,61 +250,31 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-white/80 leading-relaxed text-lg">
                 <p>
-                  Founded in 2018, Prospera Consulting emerged from a vision to revolutionize how businesses 
-                  approach their operational challenges. What began as a specialized HR consulting firm has 
-                  evolved into a comprehensive solution provider covering HR, Legal, and Technology domains.
+                  Founded in 2025, Prosperia Consulting emerged from a vision to revolutionize how businesses 
+                  approach their operational challenges. What began as a specialized staff recruitment firm has 
+                  evolved into a comprehensive solution provider covering Staff Recruitment, Legal, and Technology domains.
                 </p>
                 <p>
                   Our journey began when our founders recognized the critical challenges faced by startups and 
-                  growing businesses in managing their human resources, legal compliance, and technology 
-                  requirements. Today, we proudly serve over 500+ clients across diverse industries, from 
+                  growing businesses in managing their talent needs, legal services, and technology 
+                  requirements. Today, we proudly serve over 50+ clients across diverse industries, from 
                   emerging startups to established enterprises.
                 </p>
                 <p>
                   We believe that every business deserves access to world-class professional services that can 
-                  accelerate their growth, ensure regulatory compliance, and leverage cutting-edge technology. 
+                  accelerate growth, ensure regulatory compliance, and leverage cutting-edge technology. 
                   Our integrated approach combines deep industry expertise with innovative solutions, ensuring 
                   our clients receive holistic, tailored services that drive measurable results.
                 </p>
                 <p>
                   What sets us apart is our commitment to building long-term partnerships. We don't just 
-                  provide services; we become an extension of your team, understanding your unique challenges 
+                  provide services; we become an extension of your team — understanding your unique challenges 
                   and goals to deliver solutions that create lasting impact.
                 </p>
               </div>
             </motion.div>
             
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="relative"
-            >
-              <div className="relative p-8 bg-white/10 border border-white/20 rounded-3xl backdrop-blur-md">
-                <h3 className="text-2xl font-heading font-bold text-white mb-6">Our Journey Timeline</h3>
-                <div className="space-y-4">
-                  {milestones.slice(0, 4).map((milestone, index) => (
-                    <motion.div
-                      key={milestone.year}
-                      initial={{ opacity: 0, x: 30 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.6, delay: index * 0.1 }}
-                      viewport={{ once: true }}
-                      className="flex items-start gap-4"
-                    >
-                      <div className="w-12 h-12 bg-gradient-to-r from-accent-blue to-accent-purple rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
-                        {milestone.year}
-                      </div>
-                      <div>
-                        <h4 className="text-white font-semibold mb-1">{milestone.title}</h4>
-                        <p className="text-white/70 text-sm">{milestone.description}</p>
-                      </div>
-                    </motion.div>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
+
           </div>
         </div>
       </section>
@@ -392,7 +350,7 @@ const About = () => {
                 </h3>
               </div>
               <p className="text-white/80 leading-relaxed text-center text-lg">
-                To be the most trusted and innovative partner for businesses seeking comprehensive HR, Legal, and 
+                To be the most trusted and innovative partner for businesses seeking comprehensive Staff Recruitment, Legal Services, and 
                 Technology solutions. We envision a future where every business, regardless of size or industry, 
                 has seamless access to world-class professional services that enable sustainable growth, 
                 regulatory compliance, and technological advancement.
@@ -415,7 +373,7 @@ const About = () => {
                 </h3>
               </div>
               <p className="text-white/80 leading-relaxed text-center text-lg">
-                To empower businesses by providing exceptional HR, Legal, and Technology consulting 
+                To empower businesses by providing exceptional Staff Recruitment, Legal Services, and Technology consulting 
                 services that drive measurable results. We are committed to delivering innovative solutions, 
                 maintaining the highest standards of professionalism, and building long-term partnerships 
                 that contribute to our clients' sustainable success and growth.

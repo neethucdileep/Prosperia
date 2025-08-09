@@ -31,6 +31,22 @@ const LegalConsulting = () => {
       icon: '📝',
       link: '/legal/drafting-vetting',
       features: ['MSA Drafting', 'SOW Preparation', 'NDA Creation', 'Work Orders']
+    },
+    {
+      title: 'SEZ Compliance',
+      description: 'Comprehensive support for Special Economic Zone compliance and regulatory requirements.',
+      icon: '🏭',
+      link: '/legal/sez-compliance',
+      features: [
+        'SEZ Unit Approval',
+        'SEZ Export & Import Documentation',
+        'Compliance with SEZ Rules & Regulations',
+        'Tax & Duty Benefits Advisory',
+        'Annual Performance Report (APR) Preparation & Filing',
+        'SEZ Annual Returns & Audits',
+        'Liaison with SEZ Authorities for Clearances',
+        'Assistance with SEZ Policy Updates'
+      ]
     }
   ]
 
