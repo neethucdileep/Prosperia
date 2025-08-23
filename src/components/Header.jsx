@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import logo from '../img/logo.png'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -84,19 +85,19 @@ function Header() {
     >
       <nav className="container-max" aria-label="Main navigation">
         <div className="flex justify-between items-center py-4">
-          {/* Ultra-Modern Logo */}
-          <Link to="/" className="flex items-center space-x-3 group">
+          {/* Company Logo */}
+          <Link to="/" className="flex items-center group">
             <motion.div 
-              className="relative w-12 h-12 bg-gradient-to-r from-accent-blue via-accent-purple to-accent-green rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-glow transition-all duration-300"
-              whileHover={{ scale: 1.05, rotate: 5 }}
+              className="relative"
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="text-white font-bold text-xl">P</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-accent-blue via-accent-purple to-accent-green rounded-2xl opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300" />
+              <img 
+                src={logo} 
+                alt="Prosperia Infotech" 
+                className="h-12 w-auto object-contain"
+              />
             </motion.div>
-            <span className={`text-2xl font-heading font-bold transition-colors duration-300 ${
-              isScrolled || !isHomePage ? 'text-white' : 'text-white'
-            }`}>PROSPERIA INFOTECH</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -111,8 +111,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Email</h3>
-                    <p className="text-gray-600">info@prospera-consulting.com</p>
-                    <p className="text-gray-600">careers@prospera-consulting.com</p>
+                    <p className="text-gray-600">sales@prosperiainfotech.com</p>
                   </div>
                 </div>
 
@@ -122,8 +121,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Phone</h3>
-                    <p className="text-gray-600">+91 12345 67890</p>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="text-gray-600">+91 9809174291</p>
                   </div>
                 </div>
 
@@ -133,8 +131,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">WhatsApp</h3>
-                    <a href="https://wa.me/911234567890" className="text-accent-blue hover:underline">
-                      +91 12345 67890
+                    <a href="https://wa.me/919809174291" className="text-accent-blue hover:underline">
+                      +91 9809174291
                     </a>
                   </div>
                 </div>
@@ -146,9 +144,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Office</h3>
                     <p className="text-gray-600">
-                      123 Business District,<br />
-                      Tech Park, Bangalore - 560001<br />
-                      Karnataka, India
+                      PROSPERIA INFOTECH PRIVATE LIMITED<br />
+                      18/417 A, Poolanthara, Pothencode,<br />
+                      Koliyacodu, Trivandrum 695589, Kerala
                     </p>
                   </div>
                 </div>
