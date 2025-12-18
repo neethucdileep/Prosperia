@@ -64,19 +64,19 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <span className="text-accent-blue">📧</span>
-                <a href="mailto:sales@prosperiainfotech.com" className="text-gray-300 hover:text-white transition-colors">
-                  sales@prosperiainfotech.com
+                <a href="mailto:hr@prosperiainfotech.in" className="text-gray-300 hover:text-white transition-colors">
+                  hr@prosperiainfotech.in
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-accent-green">📞</span>
-                <a href="tel:+919809174291" className="text-gray-300 hover:text-white transition-colors">
-                  +91 9809174291
+                <a href="tel:+916282347616" className="text-gray-300 hover:text-white transition-colors">
+                  +91 6282347616
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-accent-purple">💬</span>
-                <a href="https://wa.me/919809174291" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://wa.me/916282347616" className="text-gray-300 hover:text-white transition-colors">
                   WhatsApp Support
                 </a>
               </div>

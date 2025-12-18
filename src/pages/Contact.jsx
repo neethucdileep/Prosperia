@@ -111,7 +111,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Email</h3>
-                    <p className="text-gray-600">sales@prosperiainfotech.com</p>
+                    <p className="text-gray-600">hr@prosperiainfotech.in</p>
                   </div>
                 </div>
 
@@ -121,7 +121,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">Phone</h3>
-                    <p className="text-gray-600">+91 9809174291</p>
+                    <p className="text-gray-600">+91 6282347616</p>
                   </div>
                 </div>
 
@@ -131,8 +131,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-primary mb-1">WhatsApp</h3>
-                    <a href="https://wa.me/919809174291" className="text-accent-blue hover:underline">
-                      +91 9809174291
+                    <a href="https://wa.me/916282347616" className="text-accent-blue hover:underline">
+                      +91 6282347616
                     </a>
                   </div>
                 </div>
